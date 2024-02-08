@@ -1,11 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	message := ""
 	message = "Hello world!"
 	fmt.Println(message)
+	fmt.Println(reflect.TypeOf(message))
 
 	var testVar string = "1"
 	fmt.Println(testVar)
