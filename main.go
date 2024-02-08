@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world!")
+	message := ""
+	message = "Hello world!"
+	fmt.Println(message)
 }
 
 // go run main.go
