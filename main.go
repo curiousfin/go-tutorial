@@ -9,6 +9,9 @@ func main() {
 
 	var testVar string = "1"
 	fmt.Println(testVar)
+
+	const testConst int = 2
+	fmt.Println(testConst)
 }
 
 // go run main.go
