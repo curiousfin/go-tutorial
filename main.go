@@ -16,6 +16,26 @@ func main() {
 
 	const testConst int = 2
 	fmt.Println(testConst)
+
+	// types of variables
+	var stringWithoutValue string
+	fmt.Println(stringWithoutValue) // empty string
+
+	var intWithoutValue int
+	fmt.Println(intWithoutValue) // 0
+
+	var number float32
+	number = 1.2
+	fmt.Println(number)
+
+	var b bool
+	fmt.Println(b)
+
+	var testRune rune = 'A'
+	fmt.Println(testRune) // 65
+
+	// var testByte byte = 50
+	// fmt.Fprintln(testByte)
 }
 
 // go run main.go
